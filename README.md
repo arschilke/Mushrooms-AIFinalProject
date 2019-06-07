@@ -1,4 +1,4 @@
-![Logo](https://github.com/arschilke/Mushrooms-AIFinalProject/blob/master/Picture1.svg "Logo")
+![Logo](https://github.com/arschilke/Mushrooms-AIFinalProject/blob/master/Picture1.svg "Logo"=100x)
 
 # Mushrooms
 ### Are they edible or are they poisonous?
