@@ -38,7 +38,7 @@ In order for scikit-learn to process our data, we used LabelEncoder to convert o
     - Test score:  0.7763272410791993
 #### After Cross-Validation
 - Hyperparameters learned through cross-validation:
-  - nb_parameters = {'fit_prior': (True, False), 'alpha': (0.8, 0.05, 0.1, 0.5)}
+  - `nb_parameters = {'fit_prior': (True, False), 'alpha': (0.8, 0.05, 0.1, 0.5)}`
 - Best score for Naive Bayes 0.8395061728395061
 - Best params for Naive Bayes {'alpha': 0.8, 'fit_prior': True}
 - After using cross validation, our test score became more accurate
@@ -53,7 +53,7 @@ This was not our best performing classifier
 
 #### After Cross-Validation
 - Hyperparameters learned through cross-validation
-  - mlp_parameters = {'max_iter':(1000, 1200, 5000, 10000)}
+  - `mlp_parameters = {'max_iter':(1000, 1200, 5000, 10000)}`
 - Best score for MLP 0.9135802469135802
 - Best params for MLP {'max_iter': 1200}
 - Many hyper-parameters for MLP, default worked the most accurately
@@ -68,9 +68,9 @@ This was not our best performing classifier
 
 #### After Cross-Validation
 - Hyperparameters learned through cross-validation:
-  - svm_parameters = {'kernel': ('rbf', 'linear', 'poly', 'sigmoid'),                  'C': (np.arange(0.1, 4)), 'degree': (np.arange(1, 2)), 'coef0': np.arange(0, 2),                  'shrinking': (True, False), 'probability': (False, True),                  'decision_function_shape': ('ovo', 'ovr')}
+  - `svm_parameters = {'kernel': ('rbf', 'linear', 'poly', 'sigmoid'), 'C': (np.arange(0.1, 4)), 'degree': (np.arange(1, 2)), 'coef0': np.arange(0, 2), 'shrinking': (True, False), 'probability': (False, True), 'decision_function_shape': ('ovo', 'ovr')}`
 - Best score for SVM 0.9135802469135802
-- Best params for SVM {'C': 1.1, 'coef0': 0, 'decision_function_shape': 'ovo', 'degree': 1, 'kernel': 'linear', 'probability': False, 'shrinking': True}
+- Best params for SVM `{'C': 1.1, 'coef0': 0, 'decision_function_shape': 'ovo', 'degree': 1, 'kernel': 'linear', 'probability': False, 'shrinking': True}`
 - We were able to increase the accuracy using cross validation
 - This was our second-best performing classifier
 ## Conclusion
