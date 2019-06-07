@@ -1,4 +1,4 @@
-![Logo](./Picture1.svg =100x)
+<img src="Picture1.svg" width="200px">
 
 # Mushrooms
 ### Are they edible or are they poisonous?
