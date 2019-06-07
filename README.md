@@ -1,3 +1,5 @@
+![alt text](https://github.com/arschilke/Mushrooms-AIFinalProject/Picture1.svg "Logo")
+
 # Mushrooms
 ### Are they edible or are they poisonous?
 Project by Alyssa Schilke, Mollie Morrow, and Jennifer Moutenot
