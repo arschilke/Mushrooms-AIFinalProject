@@ -40,7 +40,7 @@ In order for scikit-learn to process our data, we used LabelEncoder to convert o
 - Hyperparameters learned through cross-validation:
   - `nb_parameters = {'fit_prior': (True, False), 'alpha': (0.8, 0.05, 0.1, 0.5)}`
 - Best score for Naive Bayes 0.8395061728395061
-- Best params for Naive Bayes {'alpha': 0.8, 'fit_prior': True}
+- Best params for Naive Bayes `{'alpha': 0.8, 'fit_prior': True}`
 - After using cross validation, our test score became more accurate
 This was not our best performing classifier
 
@@ -55,7 +55,7 @@ This was not our best performing classifier
 - Hyperparameters learned through cross-validation
   - `mlp_parameters = {'max_iter':(1000, 1200, 5000, 10000)}`
 - Best score for MLP 0.9135802469135802
-- Best params for MLP {'max_iter': 1200}
+- Best params for MLP `{'max_iter': 1200}`
 - Many hyper-parameters for MLP, default worked the most accurately
 - This was our best performing classifier
 
@@ -76,5 +76,5 @@ This was not our best performing classifier
 ## Conclusion
 - We found a very unusual dataset that allowed a 100% mean accuracy using MLP and SVM with the normal 25% training data settings.  
 - Through our analysis of hyperparameters, we found that MLP took a very long time to cross validate due to the amount of settings to evaluate. 
-- This data set only includes 2 species of mushroom, it would be interesting to see how adding other kinds of mushrooms affects the calculations. 
+- This data set only includes 21 species of mushroom, it would be interesting to see how adding other kinds of mushrooms affects the calculations. 
 
